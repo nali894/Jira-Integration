@@ -14,7 +14,7 @@ namespace BusinessLayer.Jira.Integration
         }
 
         /// <summary>
-        /// https://Jira.atlassian.net/rest/api/2/search?jql=project=MDA and status !=closed&fields=key&maxResults=3000&startAt=0
+        /// https://Jira.atlassian.net/rest/api/2/search?jql=project={NombreProyecto} and status !=closed&fields=key&maxResults=3000&startAt=0
         /// </summary>
         /// <param name="strJql">filtro Jql (Jira Query Language)</param>
         /// <returns></returns>
